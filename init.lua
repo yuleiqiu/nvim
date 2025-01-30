@@ -1,3 +1,5 @@
-require('core.set')
-require('core.remap')
-require('core.lazy')
+require('options')
+require('keymaps')
+require('plugins')
+require('colorscheme')
+require('lsp')
