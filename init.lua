@@ -1,3 +1,3 @@
-require('core.set')
+require('core.options')
 require('core.remap')
 require('core.lazy')
