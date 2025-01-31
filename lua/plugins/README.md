@@ -11,7 +11,7 @@
 - [] harpoon.lua
 - [] illustrate.lua
 - [] img-clip.lua
-- [x] indent-blankline.lua
+- [] indent-blankline.lua
 - [] lazygit.lua: You need to install Lazygit to use this plugin!
 - [] lsp.lua
 - [] markdown-preview.lua

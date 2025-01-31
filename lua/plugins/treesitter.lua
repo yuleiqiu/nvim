@@ -12,23 +12,26 @@ return {
             highlight = {
                 enable = true,
             },
-            indent = { enable = true },
+            indent = {
+                enable = true
+            },
             autotag = {
                 enable = true,
             },
             fold = {
                 enable = true,
             },
-            ensure_installed = 'all',
+            ensure_installed = "all",
             incremental_selection = {
                 enable = true,
                 keymaps = {
-                    init_selection = '<leader> ',
-                    node_incremental = '<leader>',
+                    init_selection = "<leader> ",
+                    node_incremental = "<leader>",
                     scope_incremental = false,
-                    node_decremental = '<bs>',
+                    node_decremental = "<bs>",
                 },
             },
         })
     end
 }
+
