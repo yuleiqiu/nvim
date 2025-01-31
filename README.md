@@ -1,4 +1,4 @@
-My nvim config. The root dir, `nvim`, should go under `~/.config/nvim`.
+# Yulei's nvim config
 
-Update:
-Add a few plugins.
+Modified based on Rafeal's.
+

@@ -11,10 +11,7 @@ return {
         },
     },
     config = function()
-        -- empty setup using defaults
-        require("nvim-tree").setup()
-
-        -- OR setup with some options
+        -- Setup with some options
         require("nvim-tree").setup({
             sort = {
                 sorter = "filetype",

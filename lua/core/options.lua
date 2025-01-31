@@ -1,8 +1,8 @@
 -- Hint: use `:h <option>` to figure out the meaning if needed
 local options = {
-  clipboard = 'unnamedplus', -- use system clipboard
-  completeopt = { 'menu', 'menuone', 'noselect' },
-  mouse = '', -- disable(?) mouse support in Neovim
+  clipboard = "unnamedplus", -- use system clipboard
+  completeopt = { "menu", "menuone", "noselect" },
+  mouse = "", -- disable(?) mouse support in Neovim
 
   -- Tab and Indentation
   tabstop = 4, -- number of visual spaces per TAB
@@ -20,11 +20,11 @@ local options = {
   termguicolors = true, -- enable 24-bit RGB color in the GUI
   wrap = false, -- do not wrap lines
   list = false, -- do not show hidden characters
-  showbreak = '↪', -- character to show when a line is broken
+  showbreak = "↪", -- character to show when a line is broken
   -- shortmess = 'aToIOWAF', -- configure short messages to reduce noise
-  -- foldlevelstart = 99, -- start with all folds open
-  -- foldmethod = 'expr', -- use expression-based folding
-  -- foldexpr = 'nvim_treesitter#foldexpr()', -- use treesitter for folding
+  foldlevelstart = 99, -- start with all folds open
+  foldmethod = 'expr', -- use expression-based folding
+  foldexpr = 'nvim_treesitter#foldexpr()', -- use treesitter for folding
 
   -- Searching
   incsearch = true, -- search while typing
@@ -34,7 +34,7 @@ local options = {
 
   -- Spell Checking
   spell = true, -- enable spell check
-  spelllang = 'en_gb', -- use British English for spell checking
+  spelllang = "en_gb", -- use British English for spell checking
 
   -- File and Backup
   swapfile = false, -- do not create swap files
@@ -45,8 +45,8 @@ for k, v in pairs(options) do
     vim.opt[k] = v
 end
 
--- -- Remove trailing white spaces on save.
--- vim.api.nvim_create_autocmd({ "BufWritePre" }, {
---   pattern = { "*" },
---   command = [[%s/\s\+$//e]],
--- })
+-- Remove trailing white spaces on save.
+vim.api.nvim_create_autocmd({ "BufWritePre" }, {
+  pattern = { "*" },
+  command = [[%s/\s\+$//e]],
+})

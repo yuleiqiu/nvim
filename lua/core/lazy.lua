@@ -52,7 +52,7 @@ local opts = {
                 "editorconfig", -- Support for .editorconfig files
                 "matchparen",   -- Highlight matching parentheses
                 "matchit",      -- Extend % to jump between matching tags and blocks
-                "netrwPlugin",
+                "netrwPlugin",  -- We will use treesitter instead
             },
         },
     },
