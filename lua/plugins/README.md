@@ -17,3 +17,8 @@
 - [x] undotree.lua
 - [x] vim-commentary.lua
 - [x] which-key.lua
+
+Note:
+1. Use mason for lsp management.
+2. Some LSP, for example, Pyright, needs npm to install. Consider to disable LSP and use auto-completion only when you want to use it on lab's server.
+
