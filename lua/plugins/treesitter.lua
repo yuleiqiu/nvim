@@ -1,12 +1,12 @@
 return {
-    'nvim-treesitter/nvim-treesitter',
-    build = ':TSUpdate',
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
     event = { "BufReadPre", "BufNewFile" },
     dependencies = {
-        'nvim-treesitter/nvim-treesitter-textobjects'
+        "nvim-treesitter/nvim-treesitter-textobjects"
     },
     config = function()
-        local treesitter = require('nvim-treesitter.configs')
+        local treesitter = require("nvim-treesitter.configs")
         treesitter.setup({
             auto_install = true,
             highlight = {

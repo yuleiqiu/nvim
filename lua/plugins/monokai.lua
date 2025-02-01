@@ -1,5 +1,5 @@
 return {
-     "tanvirtin/monokai.nvim",
+    "tanvirtin/monokai.nvim",
     lazy = false,
     priority = 1000,
     config = function()
