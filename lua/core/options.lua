@@ -28,7 +28,7 @@ local options = {
 
   -- Searching
   incsearch = true, -- search while typing
-  hlsearch = false, -- do not highlight search matches
+  hlsearch = true, -- do not highlight search matches
   ignorecase = true, -- ignore case in searches by default
   smartcase = true, -- case-sensitive if search has uppercase letters
 

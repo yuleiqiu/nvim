@@ -50,7 +50,6 @@ local opts = {
                 "tohtml",       -- Convert syntax-highlighted code to HTML
                 "tutor",        -- Vim tutorial
                 "editorconfig", -- Support for .editorconfig files
-                "matchparen",   -- Highlight matching parentheses
                 "matchit",      -- Extend % to jump between matching tags and blocks
                 "netrwPlugin",  -- We will use treesitter instead
             },
