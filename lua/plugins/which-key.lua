@@ -1,6 +1,6 @@
 return {
     "folke/which-key.nvim",
-    
+
     -- Use "VeryLazy" event to delay plugin loading for better startup performance
     event = "VeryLazy",
 

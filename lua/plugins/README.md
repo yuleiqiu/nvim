@@ -1,24 +1,26 @@
-# Plugin List
 
-- [x] catppuccin.lua
-- [x] dressing.lua
+# Note
+
+1. I use mason for lsp management.
+2. Some LSP, for example, Pyright, needs npm to install. Consider to disable LSP and use auto-completion only when you want to use it on lab's server.
+
+# TODOS
+
+Rewrite plugins in [this](https://lazy.folke.io/spec#spec-setup) way:
+
 - [x] f-string-toggle.lua
-- [x] indent-blankline.lua
-- [x] lsp.lua
+- [] harpoon.lua
+- [] indent-blankline.lua
+- [] lsp.lua
+- [x] lualine.lua
 - [x] noice.lua
-- [x] nvim-autopairs.lua
+- [] matchparen.lua
+- [] nvim-autopairs.lua
 - [x] nvim-colorizer.lua
-- [] nvim-dap.lua
 - [x] nvim-tree.lua
-- [] oil.lua
-- [x] targets.lua
+- [] targets.lua
 - [] telescope.lua
 - [x] treesitter.lua
 - [x] undotree.lua
 - [x] vim-commentary.lua
 - [x] which-key.lua
-
-Note:
-1. Use mason for lsp management.
-2. Some LSP, for example, Pyright, needs npm to install. Consider to disable LSP and use auto-completion only when you want to use it on lab's server.
-
